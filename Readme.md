@@ -4,12 +4,12 @@
 
 ## Overview
 **Edge**
-- Edge Custom Search Engines Settings URL: [edge://settings/searchEngines](edge://settings/searchEngines)
+- Edge Custom Search Engines Settings URL: `edge://settings/searchEngines`
 - Edge User Profile Directory: `%LOCALAPPDATA%\Microsoft\Edge\Default`
 - Edge Database: `%LOCALAPPDATA%\Microsoft\Edge\Default\Web Data`
 
 **Chrome**
-- Chrome Custom Search Engines Settings URL: [chrome://settings/searchEngines](chrome://settings/searchEngines)
+- Chrome Custom Search Engines Settings URL: `chrome://settings/searchEngines`
 - Chrome User Profile Directory: `%LOCALAPPDATA%\Google\Chrome\User Data\Default`
 - Chrome Database: `%LOCALAPPDATA%\Google\Chrome\User Data\Default\Web Data`
   
@@ -31,7 +31,7 @@ Note that all scripts rely on a dependency for having `sqlite3`. You can use the
 scoop install sqlite
 ```
 
-Another useful tool for viewing the `Web Data` database contents is [sqlitebrowser]() which can be installed via:
+Another useful tool for viewing the `Web Data` database contents is `sqlitebrowser` which can be installed via:
 
 ```batch
 scoop install sqlitebrowser
@@ -46,8 +46,11 @@ This project was inspired by:
 - [erbanku/custom-search-engines-backup](https://github.com/erbanku/custom-search-engines-backup)
 - [jimbrig/PSEdgeTools](https://github.com/jimbrig/PSEdgeTools)
 
+## Author
+[@ELPSI](https://github.com/ELPSI)
+
 ## License
-[MIT](https://github.com/ELPSI/Export_Import_Browser_Keywords/blob/main/LICENSE)
+[MIT](https://github.com/ELPSI/Export_Import_Browser_Keywords/blob/master/LICENSE)
 
 
 
